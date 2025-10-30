@@ -1,2 +1,2 @@
-# ohutvarasto
+# ohtuvarasto
 Ohjelmistotuotannon tavaraa tulee tänne bitteinä
