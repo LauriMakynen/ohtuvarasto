@@ -287,6 +287,9 @@ valid-metaclass-classmethod-first-arg=mcs
 
 [DESIGN]
 
+#Oma sääntö, min 1 julkisia metodeja
+min-public-methods=1
+
 # List of regular expressions of class ancestor names to ignore when counting
 # public methods (see R0903)
 exclude-too-few-public-methods=
@@ -323,7 +326,7 @@ max-public-methods=20
 max-returns=6
 
 # Maximum number of statements in function / method body.
-max-statements=50
+max-statements=15
 
 # Minimum number of public methods for a class (see R0903).
 min-public-methods=2
@@ -353,7 +356,7 @@ indent-string='    '
 # Maximum number of characters on a single line. Pylint's default of 100 is
 # based on PEP 8's guidance that teams may choose line lengths up to 99
 # characters.
-max-line-length=100
+max-line-length=80
 
 # Maximum number of lines in a module.
 max-module-lines=1000
@@ -479,7 +482,7 @@ notes-rgx=
 [REFACTORING]
 
 # Maximum number of nested blocks for function / method body
-max-nested-blocks=5
+max-nested-blocks=2
 
 # Complete name of functions that never returns. When checking for
 # inconsistent-return-statements if a never returning function is called then
