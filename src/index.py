@@ -1,7 +1,10 @@
+"""Esimerkki Varasto-luokan käytöstä."""
+
 from varasto import Varasto
 
 
 def main():
+    """Testaa Varasto-luokan toimintoja erilaisilla esimerkeillä."""
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
@@ -48,7 +51,7 @@ def main():
     print(f"Olutvarasto: {olutta}")
 
     print(f"Mehuvarasto: {mehua}")
-    print("mehua.otaVarastosta(-32.9)")
+    print("mehua.ota_varastosta(-32.9)")
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}")
     print(f"Mehuvarasto: {mehua}")
